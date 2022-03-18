@@ -30,9 +30,9 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
    */
   [_QWERTY] = LAYOUT(
     KC_GRV,    KC_1,    KC_2,    KC_3,    KC_4,    KC_5,    KC_6   ,                        KC_6   , KC_7,    KC_8,    KC_9,    KC_0,    KC_MINS, KC_EQL,
-    KC_TAB,    KC_Q,    KC_W,    KC_E,    KC_R,    KC_T,    XXXXXXX,                        XXXXXXX, KC_Y,    KC_U,    KC_I,    KC_O,    KC_P,    KC_BSLS,
-    FANCY_ESC, KC_A,    KC_S,    KC_D,    KC_F,    KC_G,    KC_MEH ,                        KC_MEH , KC_H,    KC_J,    KC_K,    KC_L,    KC_SCLN, KC_QUOT,
-    KC_LSFT,   KC_Z,    KC_X,    KC_C,    KC_V,    KC_B,    KC_LALT,                        KC_LALT, KC_N,    KC_M,    KC_COMM, KC_DOT,  KC_SLSH, KC_RSFT,
+    KC_TAB,    KC_Q,    KC_W,    KC_E,    KC_R,    KC_T,    XXXXXXX,                        KC_PGUP, KC_Y,    KC_U,    KC_I,    KC_O,    KC_P,    KC_BSLS,
+    FANCY_ESC, KC_A,    KC_S,    KC_D,    KC_F,    KC_G,    XXXXXXX,                        KC_PGDN, KC_H,    KC_J,    KC_K,    KC_L,    KC_SCLN, KC_QUOT,
+    KC_LSFT,   KC_Z,    KC_X,    KC_C,    KC_V,    KC_B,    KC_MEH ,                        KC_MEH , KC_N,    KC_M,    KC_COMM, KC_DOT,  KC_SLSH, KC_RSFT,
     SYMBOLS,   NUMPAD,  KC_LALT, KC_LCTL,          KC_BSPC, KC_RGUI,  KC_ENT,      KC_ENT,  KC_RGUI, KC_SPC,           KC_RCTL, KC_RALT, NUMPAD,  SYMBOLS
   ),
 
@@ -52,9 +52,9 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   [_SYMBOLS] = LAYOUT(
     XXXXXXX,  XXXXXXX,  XXXXXXX,  XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,                      XXXXXXX,  XXXXXXX, XXXXXXX, KC_LPRN, KC_RPRN,  KC_UNDS,  KC_PLUS,
     KC_TILD,  KC_EXLM,  KC_AT,    KC_HASH, KC_DLR,  KC_PERC, KC_CIRC,                      KC_CIRC,  KC_AMPR, KC_ASTR, KC_LCBR, KC_RCBR,  XXXXXXX,  KC_PIPE,
-    QWERTY,   XXXXXXX,  XXXXXXX,  XXXXXXX, XXXXXXX, XXXXXXX, _______,                      _______,  XXXXXXX, XXXXXXX, KC_LBRC, KC_RBRC,  KC_COLN,  KC_DQUO,
-    _______,  XXXXXXX,  XXXXXXX,  XXXXXXX, XXXXXXX, KC_SPC,  _______,                      _______,  XXXXXXX, XXXXXXX, KC_LT,   KC_GT,    KC_QUES,  XXXXXXX,
-    _______,  _______,  _______,  _______,          _______,  _______,  _______,  _______, _______,  _______,          KC_RALT, XXXXXXX,  _______,  _______
+    QWERTY,   XXXXXXX,  XXXXXXX,  XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,                      XXXXXXX,  XXXXXXX, XXXXXXX, KC_LBRC, KC_RBRC,  KC_COLN,  KC_DQUO,
+    _______,  XXXXXXX,  XXXXXXX,  XXXXXXX, XXXXXXX, XXXXXXX, _______,                      _______,  XXXXXXX, XXXXXXX, KC_LT,   KC_GT,    KC_QUES,  _______,
+    _______,  _______,  _______,  _______,          KC_SPC ,  _______,  _______,  _______, _______,  KC_BSPC,          _______, _______,  _______,  _______
   ),
 
   /* Control
